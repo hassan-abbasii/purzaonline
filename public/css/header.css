@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+.iconClass{
+  position: relative;
+}
+ .mechanic{
+		 height: calc(100vh - 70px);  
+ 	 overflow-y: auto;
+ 	  
+}
+.navbar-style{
+	top:0;
+	z-index: 10001;
+	position: fixed;
+}
+.iconClass span{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: block;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.navbar-brand img{
+width:80px;
+  height: 40px;
+}
+
+.myynav a {
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+.myynav a:hover,
+.myynav a.active {
+    color: white;
+}
+
+.myynav a:hover:after,
+.myynav a.active:after {
+    width: 100%;
+    background-color: #4e73df;
+    color: white;
+    padding: none;
+}
+
+.myynav a:after,
+.myynav a.active:after {
+    content: "";
+    height: 2px;
+    width: 0%;
+    left: 0;
+    top: 100%;
+    transition: all 0.5s linear;
+    background-color: #4e73df;
+    position: absolute;
+    padding: none;
+}
+
+ 
+ 
+ #mynavbar button{
+ 	border: 2px solid #4e73df;
+   color: white;
+  padding: 4px 6px;
+  background-color: transparent;
+  border-radius: 30px;
+ }
+ #mynavbar button:hover{
+ 	background-color: #4e73df;
+ 	color: white;
+ }
+
+
+
+
+ .iconClass {
+    position: relative;
+}
+
+.mechanic {
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+}
+
+.navbar-style {
+    top: 0;
+    z-index: 10001;
+    position: fixed;
+}
+
+.iconClass span {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+}
+.dropdown-toggle {
+    cursor: pointer;
+}

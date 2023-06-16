@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+.navbar {
+   height: 70px;
+}
+
+.navbar-brand img {
+  height: 100%;
+   
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  right: 0;
+  left: auto;
+}
+.dropdown-item {
+  font-size: 1.2rem;
+}
+  {
+  .navbar-toggler-icon {
+    background-color: #000 !important;
+  }
+  .dropdown-menu-sm {
+    background-color: #000 !important;
+  }
+ 
+  .navbar-collapse.show {
+    background-color: #000000;
+  }
+ 
+}
+  {
+  .navbar-toggler {
+    background-color: black !important;
+  }
+
+  .profile-menu .dropdown-menu {
+    background-color: black;
+  }
+
+  .profile-menu .dropdown-menu a {
+    color: white;
+  }
+}
+.dropdown-menu {
+  background-color: white !important;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

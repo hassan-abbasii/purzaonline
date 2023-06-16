@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+.product-query{
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #f8f9fa;
+	border:1px solid #e5e5e5;
+}
+.product-query p{
+	font-family: "poppins", sans-serif;
+
+}
+.search-part{
+	background-color: black;
+	padding: 10px;
+	border-radius: 5px;
+}
+.search-part h2{
+	font-family: "poppins", sans-serif;
+	text-align: center;
+	color: white;
+}
+.product-card{
+	border: 1px solid #dee2e6;
+	background-color: #f8f9fa;
+	padding-bottom: 5px;
+border-radius: 20px;
+}
+.product-card img{
+	height:120px;
+	width: 100%;
+	object-fit: cover;
+	border-top-left-radius:20px;
+	border-top-right-radius: 20px
+}
+.product-card img:hover {
+
+}
+.product-card h6{
+	font-family: "poppins", sans-serif;
+	text-align: center;
+ 
+}
+.product-card h5{
+	font-family: math;
+	text-align: center;
+	font-weight: bold;
+	color: #4ac600;
+}
+.send-query{
+	border-radius: 5px;
+	border:1px solid #e5e5e5;
+	-webkit-box-shadow:0 0 3px 2px #e5e5e5;
+	padding: 20px;
+}
+.send-query img{
+	max-height: 150px;
+	width: 100%;
+	object-fit: cover;
+	border-bottom: 5px solid #023e8a;
+
+}
+.send-query label{
+	font-family: "poppins", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+.send-query h2{
+	font-family: "poppins", sans-serif;
+	text-align: center;
+	color: #023e8a;
+}
+.send-query .p1{
+	color: grey;
+	font-size: 12px;
+}
+.send-border{
+	border:8px solid #023e8a;
+}
+.product-card .p2{
+	 
+	font-weight: bold;
+	padding: none;
+	text-align: center;
+	font-family: "poppins", sans-serif;
+}
+.radio-check{
+	padding:5px;
+	border:1px solid #e5e5e5;
+	background-color: #e5e5e5;
+}
+
+.radio-check label{
+font-family: "poppins", sans-serif;
+font-weight: bold;
+}
+.product-card a{
+	text-decoration: none;
+}
+.new-flexx{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}

@@ -1,0 +1,31 @@
+.reply-query{
+	background-color: white;
+	border-radius: 10px;
+	-webkit-box-shadow:0 0 3px 2px #e5e5e5;
+	padding: 10px;
+
+}
+.reply-query h2{
+	text-align: center;
+	font-family: serif;
+	font-weight: bold;
+	color: #023e8a;
+}
+.reply-query .ps1{
+	font-family: serif;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+.reply-query label{
+	font-size: 20px;
+font-family:"georgia", sans-serif;
+font-weight: bold;
+color:#14213d;
+}
+.bg1{
+	background-color: #023e8a;
+}
+.bg1 h2{
+color:white;
+}

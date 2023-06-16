@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+.browse{
+	background-color: #f8f9fa;
+	height: calc(100vh - 70px);
+	overflow-y: auto;
+}
+.browse-top1 h2{
+	font-family: serif;
+	margin-left:10px;
+	text-align:center;
+}
+.browse-top1 .bi-star  {
+	color:#ffd700;
+}
+.browse-top1 .bi-star-fill{
+	color:#ffd700;
+}
+.browse-top1 p{
+	align-items: baseline;
+	font-weight: bold;
+	margin-left:10px;
+	font-size:20px;
+}
+.browse-top1 img{
+height: 60px;
+width:60px;
+object-fit: cover;
+border-radius: 5px;
+-webkit-box-shadow: 0 0 5px #e5e5e5;
+}
+.browse-top1{
+	 
+	 background-color: white;
+	border-radius: 5px;
+	padding:10px;
+	-webkit-box-shadow: 0 0 5px 5px #e5e5e5;
+}
+.bi-patch-check-fill{
+	color: blue;
+}
+.pm{
+	color: grey;
+	 
+	font-size:5px;
+}
+.global-flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.global-flex-col{
+	display: flex;
+	flex-direction: column;
+}
+.mechanic-appointment{
+	padding: 10px;
+	border-radius: 10px;
+	background-color: white;
+	-webkit-box-shadow: 0 0 5px 5px #e5e5e5;
+}
+.mechanic-appointment h2{
+text-align: center;
+font-family: math;
+font-weight: bold;
+}
+.mt{
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.mechanic-appointment input{
+	border-radius: 5px;
+	padding:10px;
+}
+.mechanic-appointment1 h3{
+	font-family: "Poppins", sans-serif;
+	color:#023e8a;
+	font-weight: bold;
+}
+.mechanic-appointment1{
+	background-color:  #f8f9fa;
+	padding: 10px;
+	border-radius: 10px;
+ 
+	-webkit-box-shadow: 0 0 5px 5px #e5e5e5;
+
+}

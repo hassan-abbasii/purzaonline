@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+.head1{
+font-family: "Poppins", sans-serif;
+}
+.head2{
+font-family: "Poppins", sans-serif;
+font-weight: bold;	
+}
+.car-form{
+	padding:20px;
+	border:5px solid #023e8a;
+	border-radius: 10px;
+	background-color: white;
+}
+.car-form h2{
+	font-family: "Poppins", sans-serif;
+font-weight: bold;
+color: #023e8a;
+text-align: center;
+}
+.car-form img{
+	max-height: 150px;
+	object-fit: cover;
+	width: 100%;
+}
+.car-form label{
+	font-family: "Poppins", sans-serif;
+font-weight: bold;
+}
+.car-record h2{
+	font-family: "Poppins", sans-serif;
+font-weight: bold;
+color: #023e8a;
+text-align: center;
+}
+.global-flex-new{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.global-flex-new1{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+.reserve-head1 {
+	font-family: "Poppins", sans-serif;
+	border-radius: 20px;
+	background-color: white;
+	-webkit-box-shadow: 0 0 10px #6c757d;
+	padding: 10px;
+	min-height:470px;
+	overflow: auto;
+}
+.reserve-head1 tr{
+	height:20px;
+}
+.reserve-head1 button{
+	margin-left: 5px;
+}
+.reserve-head1 table{
+	border-radius: 10px;
+	 
+	text-align: center;
+	 -webkit-box-shadow: 0 0 10px #6c757d;
+	 border-collapse: collapse;
+}
+.reserve-head1 table thead{
+	 position: sticky;
+   
+  top: 0;
+}
+.btn-block{
+	background-color: #4ac600;
+	padding:5px;
+}
+.home .new1{
+	background-color: black;
+}
+.aboutdiv-heading-border4 {
+    border-style: solid;
+    border-color: #ced4da;
+    border-width: 1px 0 0px 0;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 18px;
+}

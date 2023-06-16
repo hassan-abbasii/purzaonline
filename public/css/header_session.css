@@ -1,0 +1,21 @@
+.iconClass {
+    position: relative;
+}
+
+.mechanic {
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+}
+
+.navbar-style {
+    top: 0;
+    z-index: 10001;
+    position: fixed;
+}
+
+.iconClass span {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+}

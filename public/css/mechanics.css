@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+.search-part{
+	background-color: black;
+	padding: 10px;
+	border-radius: 5px;
+}
+.search-part h2{
+	font-family: "poppins", sans-serif;
+	text-align: center;
+	color: white;
+}
+.card-shop{
+	border-radius: 5px;
+	border:1px solid #e5e5e5;
+	padding-bottom: 5px;
+	-webkit-box-shadow:0 0 3px 3px #e5e5e5;
+}
+.card-shop img{
+	max-height: 150px;
+	width: 100%;
+	object-fit: cover;
+}
+.card-shop h3{
+	font-family: "poppins", sans-serif;
+	text-align: center;
+	font-size: 24px;
+}
+.card-shop .geo{
+	color:blue;
+
+margin-left: 5%;
+}
+.card-shop .bi-star-fill{
+	color:#ffd700;
+
+}
+.card-shop .bi-heart-fill{
+	color: red;
+}
+.card-shop .favorite{
+text-align: center;
+font-family: "poppins", sans-serif;
+font-weight: bold;
+	border-radius: 5px;
+	-webkit-box-shadow:0 0 3px 2px #e5e5e5;
+	padding:5px;
+	cursor: pointer;
+}
+.card-shop .name{
+	font-family: "poppins", sans-serif;
+	color :grey;
+	font-size: 15px;
+	margin-left: 5%;
+}
+.card-shop .name .bi-patch-check-fill{
+	color: blue;
+}
+.card-shop .favorite::hover
+.bi-star-fill{
+border-color: red;
+color: white;
+}
